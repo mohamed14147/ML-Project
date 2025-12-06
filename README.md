@@ -1,5 +1,23 @@
 # ML Project 
 
+## About Dataset
+**Dataset Description:**  
+This dataset serves as a comprehensive repository of global development metrics, consolidating data from multiple international organizations into a single, unified structure. It provides a granular view of the state of health, economy, and nutrition across 193 countries over a 30-year period (1990–2019).
+
+The data is organized by **Country**, **Year**, and **Gender** (Male, Female, and Both Sexes), making it a valuable resource for longitudinal studies, demographic analysis, and socio-economic research. It combines high-level economic indicators (like GDP) with granular health metrics (specific mortality rates) and detailed nutritional breakdowns (diet composition by food group).
+
+**Content Overview:**  
+- **Demographics & Economy:** Population stats, GNI, GDP, and poverty rates  
+- **Mortality & Life Expectancy:** Survival rates at various ages, maternal mortality, and life expectancy  
+- **Public Health:** Incidence of infectious diseases (Malaria, Tuberculosis, Hepatitis B) and prevalence of health risks (Tobacco, road traffic accidents)  
+- **Environmental Health:** Mortality attributed to air pollution, sanitation access, and clean fuel availability  
+- **Nutrition:** Detailed caloric and quantity breakdown of food consumption (fruits, vegetables, cereals, meats, etc.)  
+- **Healthcare Infrastructure:** Coverage of essential health services and density of medical professionals  
+
+**Dataset Source:** [Kaggle Link](https://www.kaggle.com/datasets/miguelroca/global-health-nutrition-mortality-economic-data/code)
+
+---
+
 ## 1️⃣ Data Loading
 - Read CSV using pandas  
 - Checked first 5 rows, dataset info, and summary statistics
@@ -54,4 +72,3 @@ Tested three models:
 | Random Forest Regressor     | 0.9948 | 0.0067 | 0.000127 |
 | Bagging Decision Tree       | 0.9944 | 0.0069 | 0.000137 |
 | Gradient Boosting Regressor | 0.9349 | 0.0292 | 0.001576 |
-
