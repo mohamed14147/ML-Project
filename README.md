@@ -1,4 +1,4 @@
-# ML Project Presentation
+# ML Project 
 
 ## 1️⃣ Data Loading
 - Read CSV using pandas  
